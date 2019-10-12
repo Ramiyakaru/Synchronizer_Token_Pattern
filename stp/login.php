@@ -48,7 +48,7 @@
                         <label class="uname">Username:</label>  
                         <input class="w3-input w3-border" type="text" name="user_name"  placeholder="your name" style="width:300px;" autocomplete="off">
                         </div><br>
-                        <input type="submit" name="submit" class="login_btn" value="Login"/>
+                        <input type="submit" name="submit" class="login_btn" value="Update"/>
 
 
 					<div class="spacing"><input type="hidden" id="csToken" name="CSR"/></div>
