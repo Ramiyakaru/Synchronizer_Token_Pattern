@@ -1,6 +1,5 @@
 # Synchronizer_Token_Pattern
 CSRF Protection - Synchronizer Token Pattern
-Secure Software System Assignment
 --------------------------------------------
 IT No: IT17171984
 Name: A.K.R.D. Karunadasa
