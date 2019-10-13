@@ -39,14 +39,14 @@ if(isset($_POST['loginsubmit'])) //validating login
 if(isset($_POST['submit'])) //check comment was submited
 {
     ob_end_clean();
-    sessionvalidate($_POST['CSR'],$_COOKIE['session_id']); //validates the csrf and session
+    sessionvalidate($_POST['CSR']/*,$_COOKIE['session_id']*/); //validates the csrf and session
 
 }
 
 
-function sessionvalidate($user_CSRF,$user_sessionID)
+function sessionvalidate($user_CSRF/*,$user_sessionID*/)
 {
-    if($user_CSRF==$_SESSION['CSRF'] && $user_sessionID==session_id())
+    if($user_CSRF==$_SESSION['CSRF']/* && $user_sessionID==session_id()*/)
     {
         unset($_SESSION['key']);//deleting session
         header( "Location:other/success.html" );
