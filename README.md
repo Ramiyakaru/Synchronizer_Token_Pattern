@@ -10,4 +10,6 @@ Name: A.K.R.D. Karunadasa
 --------------------------------------------
 username: admin
 password: admin
+--------------------------------------------
+Blog link: https://medium.com/@ramireigns/synchronizer-token-pattern-e95278fa1ab4
 
